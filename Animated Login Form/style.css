@@ -132,6 +132,9 @@ button {
 }
 
 @media (max-width: 600px) {
+  .form-box {
+    width: 75%;
+  }
   h2 {
     font-size: 5vw;
   }
