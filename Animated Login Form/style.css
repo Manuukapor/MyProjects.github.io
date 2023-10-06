@@ -19,7 +19,7 @@ section {
 }
 .form-box {
   position: relative;
-  width: 700px;
+  width: 800px;
   height: 450px;
   background-color: transparent;
   border: 2px solid rgba(255, 255, 255, 0.5);
@@ -133,7 +133,7 @@ button {
 
 @media (max-width: 600px) {
   .form-box {
-    width: 75%;
+    width: 85%;
   }
   h2 {
     font-size: 5vw;
