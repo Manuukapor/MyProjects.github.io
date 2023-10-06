@@ -158,6 +158,6 @@ button {
     background-size: contain;
   }
   .inputbox input {
-    color: transparent;
+    font-size: 3vw;
   }
 }
