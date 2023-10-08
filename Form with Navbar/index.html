@@ -44,6 +44,13 @@
         <p>
           Aaayeeeee!!!Elvish Bhai ke samne koi <br />kuch bol sakta hai kya?
         </p>
+        <button onclick="playVideo()">DON'T CLICK</button>
+        <video
+          id="videoPlayer"
+          src="elvish bhai meme.mp4"
+          type="video/mp4"
+          controls
+        ></video>
       </section>
     </main>
 
@@ -60,6 +67,22 @@
           ? "fa-solid fa-xmark"
           : "fa-solid fa-bars";
       };
+      function playVideo() {
+        var video = document.getElementById("videoPlayer");
+        video.style.display = "block";
+        video.play();
+
+        if (video.paused) {
+          video.style.display = "block"; // Show the video
+          video.play(); // Start playing the video
+        } else {
+          // If video is already playing, rewind to the beginning and play again
+          video.currentTime = 0;
+        }
+        video.addEventListener("ended", function () {
+          video.style.display = "none"; // Hide the video after it ends
+        });
+      }
     </script>
   </body>
 </html>

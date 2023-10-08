@@ -124,10 +124,32 @@ header {
   justify-content: center;
   text-align: center;
   color: #fff;
+  margin-left: 3vw;
 }
 
 .hero h1 {
   font-size: 5vw;
+  margin-bottom: 2vw;
+}
+
+main button {
+  background-color: orange;
+  color: #fff;
+  width: 8vw;
+  height: 2vw;
+  border-radius: 2vw;
+  margin-top: 1vw;
+  font-weight: 600;
+  font-size: 0.9vw;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+#videoPlayer {
+  width: 640px;
+  height: 500px;
+  display: none;
   margin-bottom: 2vw;
 }
 
@@ -143,11 +165,36 @@ header {
   .dropdown {
     display: block;
   }
+  main button {
+    font-size: 1.8vw;
+    width: 15vw;
+    height: 3vw;
+    /* padding: 0.5vw 1vw; */
+    font-weight: 600;
+  }
+  #videoPlayer {
+    width: 620px;
+    height: 600px;
+  }
 }
 
 @media (max-width: 576px) {
   .dropdown {
     left: 2vw;
     width: unset;
+  }
+  main h1 {
+    margin-top: 5vw;
+  }
+  main button {
+    font-size: 2vw;
+    width: 15vw;
+    height: 5vw;
+    padding: 0.5vw 1vw;
+    font-weight: 600;
+  }
+  #videoPlayer {
+    width: 460px;
+    height: 600px;
   }
 }
