@@ -175,22 +175,22 @@ main .under {
   }
   main h1 {
     font-size: 15vw;
-    margin-top: 103px;
+    margin-top: 20px;
     margin-left: 24px;
   }
   main p {
     font-size: 4vw;
-    margin-top: 60vw;
-    margin-left: 17vw;
+    margin-top: 48vw;
+    margin-left: 14vw;
   }
   p.bottom {
     font-size: 3vw;
-    margin-top: 270px;
-    margin-left: 114px;
+    margin-top: 54vw;
+    margin-left: 138px;
   }
   p.under {
     font-size: 3vw;
-    margin-top: 287px;
-    margin-left: 157px;
+    margin-top: 59vw;
+    margin-left: 190px;
   }
 }
