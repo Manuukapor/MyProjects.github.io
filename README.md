@@ -5,8 +5,7 @@ https://manuukapor.github.io/amazon.github.io/index.html
 
 Music player using Hmtl and CSS 
 
----->  https://github.com/Manuukapor/amazon.github.io/Music%20Player
-https://github.com/Manuukapor/amazon.github.io/tree//Music%20Player
+---->  https://github.com/Manuukapor/amazon.github.io/
 
 This is my Second Website-->
 
