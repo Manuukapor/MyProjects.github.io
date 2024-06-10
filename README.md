@@ -3,9 +3,13 @@ This is my first website--->
 
 https://manuukapor.github.io/amazon.github.io/index.html
 
-Music player using Hmtl and CSS 
+Music player using Html and CSS 
 
 ---->  https://manuukapor.github.io/amazon.github.io/Music%20Player
+
+Weather App using Html,CSS and JS
+
+----> https://manuukapor.github.io/amazon.github.io/Weather%20App
 
 This is my Second Website-->
 
