@@ -15,7 +15,7 @@ Myntra CLone using Html,Css and JS
 
 -----> https://manuukapor.github.io/amazon.github.io/Myntra%20Clone%20Project
 
-This is my Second Website-->
+Amazon Clone using Html and Css-->
 
 https://manuukapor.github.io/amazon.github.io/Amazon
 
